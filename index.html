@@ -9,13 +9,16 @@
 </head>
 <body class="d-flex align-items-center ">
     
-    <div class="container dimensioni align-content-center text-center py-4">
+    <div class="container dimensioni align-content-center text-center py-4 d-none d-lg-block ">
         <h2 class="mb-5 mt-3 text-color">js-calculator</h2>
         <div class="row text-end padding mb-2 ">
             <div class="col-12 mb-2 risultato">
-                <h1>ciao</h1>
+                <h1></h1>
+                <div class="nascosto d-none">
+                    <span></span>
+                </div>
                 <div class="font-piccolo">
-                    ciaooo
+                    <span></span>
                 </div>
             </div>
         </div>
@@ -51,5 +54,56 @@
         </div>
 
     </div>
+    <!-- RESPONSIVE SMARTPHONE-->
+    <div class="container dimensioni align-content-center text-center py-4 d-none d-lg-block ">
+        <h2 class="mb-5 mt-3 text-color">js-calculator</h2>
+        <div class="row text-end padding mb-2 ">
+            <div class="col-12 mb-2 risultato">
+                <h1></h1>
+                <div class="nascosto d-none">
+                    <span></span>
+                </div>
+                <div class="font-piccolo">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-3 mb-2"><button class="w-100 h-100 lettere">AC</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 lettere">C</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 operatori">%</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 operatori">:</button></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">7</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">8</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">9</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 operatori">x</button></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">4</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">5</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">6</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 operatori">-</button></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">1</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">2</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 number">3</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 operatori">+</button></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 mb-2"><button class="w-100 h-100 number">0</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 lettere">,</button></div>
+            <div class="col-3 mb-2"><button class="w-100 h-100 operatori">=</button></div>
+            
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

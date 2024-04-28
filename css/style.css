@@ -10,7 +10,7 @@
 }
 body{
     background-color:  #1e355b;
-    height: 100vh;
+    height: 800px;
 }
 .text-color{
     color: #2e528d;
@@ -73,6 +73,7 @@ button{
 
 .padding{
     padding: 0px 12px;
+    min-height: 106px;
 }
 .font-piccolo{
     font-size: 12px;
