@@ -24,7 +24,7 @@ body{
 }
 
 .container{
-    background-color: hsl(60, 56%, 91%);
+    background-color: #f5f5db;
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
 }
 button{
@@ -78,4 +78,14 @@ button{
 .font-piccolo{
     font-size: 12px;
     color: #2e528d7a;
+}
+@media screen and (max-width: 767px) {
+    .dimensioni{
+        max-width: 90%;
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    
 }
