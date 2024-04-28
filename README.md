@@ -1,6 +1,6 @@
 # js-calculator
 
-**js-calculator*+ è una calcolatrice che consente di svolgere operazioni matematiche di base come addizioni, sottrazioni, moltiplicazioni, divisioni e calcolo delle percentuali. L'interfaccia è stata progettata con un'estetica simpatica e intuitiva, rendendo facile e piacevole l'utilizzo della calcolatrice.
+**js-calculator** è una calcolatrice che consente di svolgere operazioni matematiche di base come addizioni, sottrazioni, moltiplicazioni, divisioni e calcolo delle percentuali. L'interfaccia è stata progettata con un'estetica simpatica e intuitiva, rendendo facile e piacevole l'utilizzo della calcolatrice.
 
 ## Caratteristiche
 
