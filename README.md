@@ -6,7 +6,6 @@
 
 - Supporto per addizioni, sottrazioni, moltiplicazioni e divisioni.
 - Calcolo delle percentuali.
-- Interfaccia utente intuitiva.
 - Design gradevole e moderno.
 
 ## Tecnologie Utilizzate
